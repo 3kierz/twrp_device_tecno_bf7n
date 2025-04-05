@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit from KJ6 device
+# Inherit from BF7n device
 $(call inherit-product, device/tecno/BF7n/device.mk)
 
 # Inherit some common TWRP stuff.
