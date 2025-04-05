@@ -10,7 +10,7 @@ $(call inherit-product-if-exists, $(SRC_TARGET_DIR)/product/embedded.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-# Inherit from Nova device
+# Inherit from BF7n device
 $(call inherit-product, device/tecno/BF7N/device.mk)
 
 # Inherit some common Omni stuff.
